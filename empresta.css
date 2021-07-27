@@ -1,0 +1,300 @@
+/*menu*/
+
+@media only screen and (max-width: 600px){
+    .mobile-style { display: none; }
+}
+
+.menu-sup{
+    padding: 0;
+    font-size: 14px;
+}
+
+.icon{
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.icon a:link{
+    color: rgba(0, 0, 0, 0.55);
+}
+.icon a:hover{
+    color: rgba(0,0,0,0.7);
+}
+
+.link-sup{
+    font-size: 14px;
+    color:rgba(0,0,0,0.55);
+    text-decoration: none;
+}
+
+.link-sup a:link{
+    color: rgba(0,0,0,0.55);
+}
+.link-sup a:hover{
+    color: #EF6C00;
+}
+
+.button-sup{
+    color: #EF6C00;
+    margin-top: 4px;
+}
+
+.menu-img{
+    margin: 0px;
+    min-width: 45px;
+    max-width: 200px;
+}
+
+.main-menu{
+    font-size: 18px;
+}
+
+.search-sup{
+    color: #ffffff;
+    background: rgb(85,159,233);
+    background: linear-gradient(135deg, rgba(85,159,233,1) 0%, rgba(6,56,129,1) 100%);
+    padding: 120px 50px;
+    margin-right: -12px;
+
+}
+
+/*Melhor Resultado*/
+
+.resultado{
+    padding: 20px 25px 60px 75px;
+}
+
+.resultado-titulo{
+    color:#273E74;
+    margin-bottom: 20px;
+    margin-left: -50px;
+}
+
+.resultado-img{
+    margin-top: 60px;
+}
+
+.nota{
+    color:#EF6C00;
+}
+
+.endereco{
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.horario{
+    color:#EF6C00;
+    margin-top: 8px;
+}
+
+.recuo{
+    margin-left: -20px;
+}
+
+.btn-emp-zap {
+    color: white;
+    background-color: #25d366;
+    border-color: #25d366;
+  }
+  
+  .btn-emp-zap:hover {
+    color: white;
+    background-color: #25d366;
+    border-color: #25d366;
+  }
+
+/*Outros Resultados*/
+
+.resultado-out{
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resultado-out-img{
+    margin: 10px 0px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.resultado-out-campo{
+    background-color: white;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:25px 10px;
+    margin: 10px 0px 10px -33px;
+    color: black;
+    vertical-align: middle;
+}
+
+.resultado-button{
+    margin-top: 40px;
+}
+
+/*Rodapé*/
+
+#footer {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
+}
+
+#footer .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#footer .row {
+    margin-bottom: 60px;
+}
+
+#footer .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#footer .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#footer h5 {
+    font-size: 18px;
+    color: #EF6C00;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#footer h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#footer a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#footer a:hover,
+#footer a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#footer .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#footer .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#footer .social-networks a:hover {
+    text-decoration: none;
+}
+
+#footer .facebook:hover {
+    color: #EF6C00;
+}
+
+#footer .instagram:hover {
+    color: #EF6C00;
+}
+
+#footer .linkedin:hover {
+    color: #EF6C00;
+}
+
+#footer .youtube:hover {
+    color: #EF6C00;
+}
+
+
+@media screen and (max-width: 767px) {
+    #footer {
+        text-align: center;
+    }
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#footer{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+hr {
+    border-color: #EF6C00;
+}
+
+ul{
+    font-size: 13px;
+}
+
+.btn-cadastrar{
+    background-color: #EF6C00;
+    color: white;
+}
+
+.btn-central:hover{
+    background-color: #EF6C00;
+    color: white;
+}
+
+.li-icon{
+   margin-right: 12px;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.img-footer{
+    height: 40px;
+}
+
+.img-direitos{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.p-copy{
+    font-size: 12px;
+}

@@ -1,0 +1,18 @@
+$emp-orange:#EF6C00;
+$emp-blue: #273E74;
+$emp-light: #ffffff;
+$emp-dark: #404040;
+$emp-dark-alt: #484848;
+
+$theme-colors: (
+"emp-orange": $emp-orange,
+"emp-blue": $emp-blue,
+"emp-light": $emp-light,
+"emp-dark": $emp-dark,
+"emp-dark-alt": $emp-dark-alt,
+
+);
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap"
